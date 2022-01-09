@@ -1,0 +1,15 @@
+{
+  "name": "sensen-hinata",
+  "version": "0.0.15",
+  "description": "A Sensen core for your HTML template runtime",
+  "main": "js/Index.js",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node index"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
