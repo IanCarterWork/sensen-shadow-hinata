@@ -1,9 +1,9 @@
-import { CompilateVariables, Compilator, CompilatorNodeVariables, CompilatorRecordsRefsVariables } from "./Framework";
+import { CompilateVariables, Compilator, CompilatorNodeVariables, CompilatorRecordsRefsVariables } from "./Framework.js";
 window.View = {};
 export class SensenView {
     constructor(props) {
         this.slug = props.slug;
-        this.source = props.source;
+        // this.source = props.source;
         this.controller = props.controller || (() => { });
         this.mounted = props.mounted || (() => { });
         this.unmounted = props.unmounted || (() => { });

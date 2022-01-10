@@ -39,7 +39,7 @@ export type SensenTViewProps = {
 
     slug: string;
 
-    source: string;
+    // source: string;
 
     controller?: (dependencies?: SensenTViewControllersDependencies) => void;
 

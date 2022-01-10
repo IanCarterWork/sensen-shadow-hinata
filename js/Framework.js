@@ -1,4 +1,4 @@
-import { ProtorianMetricRandom } from "./MetricRandom";
+import { ProtorianMetricRandom } from "./MetricRandom.js";
 window.$SensenNodeRefVariables = {};
 window.$SensenRLP = {
     entries: {},
@@ -179,6 +179,7 @@ export default class Sensen {
     static JS(app) {
         console.log(`${this.Name} is ready`);
         window.SensenJSApp = app;
+        window.SensenJSApp(this);
     }
 }
 Sensen.Name = 'Sensen Senju';

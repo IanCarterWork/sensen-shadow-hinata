@@ -248,7 +248,7 @@ export default class SensenTheme{
 
                         fragmentsArray.map(e=>{
                             
-                            window.$SensenRLP.push(`@Theme.${ e[0] }`, e[1])
+                            window.$SensenRLP.push(`@Theme(${this.Theme}).${ e[0] }`, e[1])
                             
                         });
 

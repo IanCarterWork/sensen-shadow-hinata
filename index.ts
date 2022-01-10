@@ -8,10 +8,10 @@ import LocationGetMethods from "./core/LocationMethods"
 
 const SensenHinata = {
     Framework: Sensen,
-    SensenView,
-    SensenTheme,
-    SensenThemeColor,
-    SensenRouter,
+    View: SensenView,
+    Theme: SensenTheme,
+    ThemeColor: SensenThemeColor,
+    Router: SensenRouter,
     Dependencies: {
         LocationGetMethods
     }

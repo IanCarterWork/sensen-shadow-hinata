@@ -1,4 +1,5 @@
 import Sensen from "./Framework";
+import LocationGetMethods from "./LocationMethods";
 import { SensenRouter } from "./Router";
 import SensenTheme from "./Theme";
 import SensenThemeColor from "./ThemeColor";
@@ -9,10 +10,14 @@ const SensenHinata = {
 
     Framework: Sensen,
 
-    SensenView,
-    SensenTheme,
-    SensenThemeColor,
-    SensenRouter,
+    View: SensenView,
+    Theme: SensenTheme,
+    ThemeColor: SensenThemeColor,
+    Router: SensenRouter,
+
+    Dependencies:{
+        LocationGetMethods
+    }
     
 }
 

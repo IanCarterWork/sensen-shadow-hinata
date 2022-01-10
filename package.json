@@ -1,15 +1,19 @@
 {
   "name": "sensen-hinata",
-  "version": "0.0.15",
-  "description": "A Sensen core for your HTML template runtime",
-  "main": "js/Index.js",
-  "type": "module",
+  "version": "0.0.25",
+  "description": "A Sensen Core for your HTML template runtime",
+  "main": "index.js",
   "scripts": {
-    "start": "ts-node index"
+    "tswatch": "tsc -watch",
+    "test": "node test"
   },
-  "author": "",
+  "author": "Yannick GOBOU",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^4.5.4"
-  }
+  },
+  "dependencies": {
+    "esm": "^3.2.25"
+  },
+  "type": "module"
 }

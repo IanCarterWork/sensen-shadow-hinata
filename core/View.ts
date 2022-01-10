@@ -22,7 +22,7 @@ export class SensenView{
 
     slug: string;
 
-    source: string;
+    // source: string;
 
     controller: (dependencies: SensenTViewControllersDependencies ) => void;
 
@@ -46,7 +46,7 @@ export class SensenView{
 
         this.slug = props.slug;
 
-        this.source = props.source;
+        // this.source = props.source;
 
         this.controller = props.controller || (()=>{});
 

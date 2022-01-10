@@ -1,0 +1,1 @@
+import\s(.*)\sfrom\s"(.*)" -> import $1 from "$2.js"

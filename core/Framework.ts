@@ -472,6 +472,8 @@ export default class Sensen{
 
         window.SensenJSApp = app;
 
+        window.SensenJSApp(this);
+
     }
 
     static RLPObject = window.$SensenRLP
